@@ -66,3 +66,14 @@ section {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+        body {
+            display: flex; /* Flexbox gebruiken */
+            flex-direction: column; /* Kolomrichting */
+            align-items: center; /* Horizontaal centreren */
+            justify-content: center; /* Verticaal centreren */
+            height: 100vh; /* Volledige hoogte van het venster */
+            margin: 0; /* Geen standaard marge */
+            font-family: Arial, sans-serif; /* Lettertype */
+        }
+
