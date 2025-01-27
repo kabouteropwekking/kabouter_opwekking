@@ -1,1 +1,3 @@
 # kabouter_opwekking
+### Welkom bij de interne beschrijving van de website van Kabouter Opwekking.
+Nothing here yet...
