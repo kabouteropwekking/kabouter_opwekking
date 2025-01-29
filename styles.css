@@ -89,3 +89,8 @@ input:focus, textarea:focus {
     outline: none;
 }
 
+.container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Twee kolommen */
+            gap: 10px; /* Ruimte tussen de div's */
+        }
