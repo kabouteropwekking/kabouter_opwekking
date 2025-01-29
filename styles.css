@@ -92,5 +92,5 @@ input:focus, textarea:focus {
 .container {
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Twee kolommen */
-            gap: 10px; /* Ruimte tussen de div's */
+            gap: 2px; /* Ruimte tussen de div's */
         }
