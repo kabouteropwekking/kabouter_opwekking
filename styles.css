@@ -96,5 +96,8 @@ input:focus, textarea:focus {
         }
 
 .box {
-        gap: 1px;
+    height: 100px; /* Hoogte van de div's */
+    background-color: lightcoral; /* Achtergrondkleur */
+    margin: 0; /* Geen marge */
+    padding: 0; /* Geen padding */
 }
