@@ -126,7 +126,8 @@ button.prev, button.next {
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index: 1;
+    z-index: 10; /* Zorg ervoor dat de knoppen boven andere elementen staan */
+    font-size: 18px; /* Pas de lettergrootte aan naar wens */
 }
 
 button.prev {
@@ -135,6 +136,11 @@ button.prev {
 
 button.next {
     right: 10px;
+}
+
+/* Optioneel: Voeg een hover-effect toe voor de knoppen */
+button.prev:hover, button.next:hover {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .views {
