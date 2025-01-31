@@ -136,3 +136,8 @@ button.prev {
 button.next {
     right: 10px;
 }
+
+.views {
+    text-align: center;
+    margin-top: 10px; /* Ruimte tussen de video en de views */
+}
