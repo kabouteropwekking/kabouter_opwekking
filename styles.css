@@ -114,36 +114,26 @@ input:focus, textarea:focus {
 }
 
 .slide {
+    position: relative; /* Zorg ervoor dat de knoppen relatief zijn ten opzichte van de slide */
     min-width: 100%;
     box-sizing: border-box;
 }
 
-button.prev, button.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 10; /* Zorg ervoor dat de knoppen boven andere elementen staan */
-    font-size: 18px; /* Pas de lettergrootte aan naar wens */
+.prev, .next {
+    position: absolute; /* Maak de knoppen absoluut gepositioneerd */
+    top: 50%; /* Plaats ze in het midden van de slide */
+    transform: translateY(-50%); /* Center de knoppen verticaal */
+    background-color: rgba(255, 255, 255, 0.7); /* Maak de achtergrond semi-transparant */
+    border: none; /* Verwijder de standaard rand */
+    padding: 10px; /* Voeg wat padding toe */
+    cursor: pointer; /* Maak de cursor een pointer */
+    z-index: 10; /* Zorg ervoor dat ze boven de video staan */
 }
 
-button.prev {
-    left: 10px;
+.prev {
+    left: 10px; /* Plaats de vorige knop aan de linkerkant */
 }
 
-button.next {
-    right: 10px;
-}
-
-/* Optioneel: Voeg een hover-effect toe voor de knoppen */
-button.prev:hover, button.next:hover {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.views {
-    text-align: center;
-    margin-top: 10px; /* Ruimte tussen de video en de views */
+.next {
+    right: 10px; /* Plaats de volgende knop aan de rechterkant */
 }
